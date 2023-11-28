@@ -88,7 +88,7 @@ def render(frame, obj, projection, referenceImage, scale3d, color=False):
 
 def main():
     # Load the 3D model from OBJ file
-    obj = OBJ("./models/Woman_Head.obj", swapyz=True)  # Path to the 3D model file
+    obj = OBJ("./models/fox.obj", swapyz=True)  # Path to the 3D model file
     scale3d = 8  # 3D model scale
 
     # Camera parameters matrix
