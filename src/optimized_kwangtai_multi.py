@@ -142,7 +142,7 @@ def main():
                             print(f"inlier_ratio: {inlier_ratio}")
 
                             # 인라이어 비율이 특정 임계값 이상인 경우에만 렌더링
-                            if inlier_ratio > 0.68:
+                            if inlier_ratio > 0.5:
                                 projection = projection_matrix(camera_parameters, homography)
                                 frame = render(frame, ref.model, projection, ref.image, ref.scale, False)
 
