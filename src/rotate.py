@@ -105,8 +105,8 @@ def main():
 
     # Load the 3D models and reference images
     references = [
-        ReferenceObject("./img/referenceImage.jpg", "./models/Woman.obj", 2, sift),
-        ReferenceObject("./img/ref1.jpg", "./models/Man.obj", 2, sift)
+        ReferenceObject("./img/ref1.jpg", "./models/Woman.obj", 1, sift),
+        ReferenceObject("./img/ref2.jpg", "./models/Man.obj", 1, sift)
     ]
 
     # Camera parameters matrix
